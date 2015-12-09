@@ -29,11 +29,12 @@
 .board__headerLinks {
   display: inline-block;
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
   right: 0;
   @media all and (max-width: $break-s) {
     display: block;
     position: relative;
+    bottom: 0px;
     > a {white-space: nowrap;}
   }
   @media all and (min-width: $break-m) {
@@ -119,6 +120,7 @@
 // classes used in the board guidelines
 .board__guidelines {
   margin: 10px -15px;
+  position: relative;
   @media all and (max-width: $break-m) and (min-width: $break-s) {
     margin: 0 -10px 15px -10px;
   }
@@ -131,9 +133,6 @@
   right: 0;
   top: 0;
   clip: rect(0, 0, 0, 0);
-}
-.board__guidelines {
-  position: relative;
 }
 .guidelines_trigger:checked ~ .board__guidelinesContent {
   max-height: 1500px;
@@ -152,7 +151,7 @@
   cursor: pointer;
 }
 .guidelines__trigger2 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-style: italic;
   line-height: 20px;
   text-align: center;
@@ -188,7 +187,7 @@
 }
 .board__guidelinesList {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding: 0 30px;
   text-align: justify;
   vertical-align: top;
@@ -209,8 +208,8 @@
       background-size: 10px;
     }
   }
-  > h3 {
-    font-size: 1.5rem;
+  > h4 {
+    font-size: 0.9rem;
     margin-left: -15px;
   }
   &:first-child {
