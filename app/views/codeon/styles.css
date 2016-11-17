@@ -1,0 +1,150 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0; }
+  body a {
+    color: black;
+    text-decoration: none; }
+  body .main {
+    background-color: #ffff99;
+    padding: 0;
+    margin: 0 auto; }
+  body .iconSection {
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-top: 5%; }
+    body .iconSection .iconContent {
+      width: 80%;
+      margin: 0 auto;
+      vertical-align: bottom; }
+      body .iconSection .iconContent .tech {
+        vertical-align: bottom; }
+        body .iconSection .iconContent .tech .icon {
+          width: 30%;
+          text-align: center;
+          display: inline-block;
+          margin: 0 auto;
+          vertical-align: top; }
+  body .locations {
+    background-color: #ffffb3;
+    padding-bottom: 5%;
+    padding-top: 5%; }
+    body .locations .localSection {
+      width: 80%;
+      margin: 0 auto; }
+      body .locations .localSection .local {
+        padding: 1%;
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        margin: 0; }
+        body .locations .localSection .local h4 {
+          display: inline-block;
+          margin-top: 1%;
+          margin-bottom: 1%;
+          font-style: italic; }
+        body .locations .localSection .local h3 {
+          margin: 0; }
+        body .locations .localSection .local h5 {
+          font-weight: bold; }
+        body .locations .localSection .local .address {
+          margin: 0; }
+        body .locations .localSection .local .about {
+          margin: 0; }
+        body .locations .localSection .local p {
+          font-size: 12px; }
+  body .donate {
+    background-color: #ffff99;
+    padding-bottom: 5%;
+    padding-top: 5%; }
+  body .companies2 {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin: 0 auto;
+    text-align: center; }
+    body .companies2 img {
+      max-height: 375px; }
+  body .companies {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center; }
+    body .companies .compSection {
+      width: 80%;
+      margin: 0 auto; }
+      body .companies .compSection .compLogo {
+        display: inline-block; }
+        body .companies .compSection .compLogo img {
+          max-height: 50px;
+          padding: 5%; }
+  body .wrapper {
+    width: 80%;
+    margin: 0 auto; }
+    body .wrapper .split {
+      width: 32%;
+      display: inline-block;
+      vertical-align: top; }
+      body .wrapper .split h2 {
+        vertical-align: middle; }
+      body .wrapper .split i {
+        vertical-align: middle;
+        font-size: 24px; }
+      body .wrapper .split p {
+        font-size: 12px; }
+  body .inline {
+    display: inline; }
+  body #myVideo {
+    width: 100%;
+    z-index: 0;
+    margin-top: -28%; }
+  body #logo {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    padding-top: 23%; }
+  body .blurb {
+    width: 80%;
+    margin: 5% auto 0;
+    padding-bottom: 5%; }
+  @media (max-width: 1050px) and (min-width: 1px) {
+    body .main #logo {
+      padding-top: 20%;
+      max-height: 150px; }
+    body .main .blurb {
+      padding-top: 2%; }
+      body .main .blurb h2 {
+        font-size: 18px; }
+    body .locations .localSection .local {
+      display: block;
+      width: 100%; }
+      body .locations .localSection .local h3 {
+        display: inline-block; }
+    body .companies .compSection {
+      width: 90%; }
+    body .donate .wrapper .split {
+      width: 100%; }
+    body .iconSection .iconContent .icon h3 {
+      font-size: 14px; } }
+  @media (max-width: 700px) and (min-width: 1px) {
+    body .main #logo {
+      max-height: 120px; }
+    body .main .blurb {
+      padding-top: 3%; }
+    body .companies2 img {
+      max-height: auto; }
+    body .iconSection .iconContent .icon {
+      font-size: 15px; }
+      body .iconSection .iconContent .icon h3 {
+        font-size: 14px; } }
+  @media (max-width: 500px) {
+    body .main #logo {
+      max-height: 100px; }
+    body .main .blurb {
+      padding-top: 5%; }
+    body .companies2 img {
+      width: 100%; }
+    body .iconSection .iconContent .icon {
+      font-size: 12px; }
+      body .iconSection .iconContent .icon h3 {
+        font-size: 12px; } }
