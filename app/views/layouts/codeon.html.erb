@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>CodeON</title>
+    <%= stylesheet_link_tag    'codeonstyles', media: 'all' %>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="https://use.fontawesome.com/72c7007a8f.js"></script>
+</head>
+<body>
+    <div class="main">
+      <%= render 'layouts/nav' %>
+      <%= yield %>
+    </div>
+  </body>
