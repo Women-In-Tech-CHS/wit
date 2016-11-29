@@ -22,4 +22,5 @@ Rails.application.routes.draw do
     resources :topics, concerns: :commentable, shallow: true
   end
   resources :mentorship, only: [:index]
+  resources :codeon, only: [:index]
 end
