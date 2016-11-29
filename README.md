@@ -6,4 +6,6 @@ A site (see it [here](http://www.charlestonwomenintech.com)) dedicated to suppor
 
 Please offer feedback or report bugs by creating a new issue.
 
+If you'd like to contribute (which would be amazing), submit PRs to the staging branch. Once checks have passed and the build is merged, you can see the changes in the [staging site](http://stagingchswit.herokuapp.com/).
+
 Thanks!
